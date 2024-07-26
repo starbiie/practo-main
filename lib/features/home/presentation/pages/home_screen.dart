@@ -348,7 +348,7 @@ Spacer(),                            Row(
                                   color: Color(0xff00B8FE),
                                   borderRadius: BorderRadius.circular(5),
                                 ),
-                                child: Row(
+                                child: const Row(
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Icon(Icons.video_call_outlined, color: Colors.white),
@@ -359,7 +359,7 @@ Spacer(),                            Row(
                                   ],
                                 ),
                               ),
-                              SizedBox(height: 5.0), // Use SizedBox for spacing
+                              SizedBox(height: 5.0),
                             ],
                           ),
                         ),
